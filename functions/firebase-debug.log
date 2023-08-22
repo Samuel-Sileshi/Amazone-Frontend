@@ -1,0 +1,84 @@
+[debug] [2023-08-15T22:38:54.768Z] ----------------------------------------------------------------------
+[debug] [2023-08-15T22:38:54.776Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Toshiba\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-08-15T22:38:54.779Z] CLI Version:   12.4.7
+[debug] [2023-08-15T22:38:54.780Z] Platform:      win32
+[debug] [2023-08-15T22:38:54.784Z] Node Version:  v18.16.0
+[debug] [2023-08-15T22:38:54.789Z] Time:          Wed Aug 16 2023 01:38:54 GMT+0300 (East Africa Time)
+[debug] [2023-08-15T22:38:54.789Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-08-15T22:38:55.413Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-08-15T22:38:55.415Z] > authorizing via signed-in user (samuelsileshi9@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-08-15T22:38:55.512Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-15T22:38:55.514Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-08-15T22:38:55.564Z] [hub] writing locator at C:\Users\Toshiba\AppData\Local\Temp\hub-fir-a8407.json
+[debug] [2023-08-15T22:38:55.832Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-15T22:38:55.834Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-08-15T22:38:55.835Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-08-15T22:38:55.877Z] defaultcredentials: writing to file C:\Users\Toshiba\AppData\Roaming\firebase\samuelsileshi9_gmail_com_application_default_credentials.json
+[debug] [2023-08-15T22:38:55.906Z] Setting GAC to C:\Users\Toshiba\AppData\Roaming\firebase\samuelsileshi9_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Toshiba\\AppData\\Roaming\\firebase\\samuelsileshi9_gmail_com_application_default_credentials.json"}}
+[debug] [2023-08-15T22:38:55.920Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-a8407/adminSdkConfig [none]
+[debug] [2023-08-15T22:38:56.761Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-a8407/adminSdkConfig 200
+[debug] [2023-08-15T22:38:56.762Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-a8407/adminSdkConfig {"projectId":"fir-a8407","storageBucket":"fir-a8407.appspot.com"}
+[debug] [2023-08-15T22:38:56.985Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-08-15T22:38:56.986Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-08-15T22:38:56.987Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Toshiba\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Toshiba\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-08-15T22:38:58.464Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-08-15T22:38:58.466Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\Online Courses\EVANGADI\Projects (Additional)\Amazone-Clone\amazone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\Online Courses\\EVANGADI\\Projects (Additional)\\Amazone-Clone\\amazone\\functions\" for Cloud Functions..."}}
+[debug] [2023-08-15T22:38:58.658Z] Validating nodejs source
+[debug] [2023-08-15T22:39:04.940Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^12.17.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-08-15T22:39:04.940Z] Building nodejs source
+[debug] [2023-08-15T22:39:04.942Z] Failed to find version of module node: reached end of search path D:\Online Courses\EVANGADI\Projects (Additional)\Amazone-Clone\amazone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-08-15T22:39:04.953Z] Failed to validate key Skey: Error: Key Skey must start with an uppercase ASCII letter or underscore, and then consist of uppercase ASCII letters, digits, and underscores.
+[error] !!  functions: Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env. {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: Failed to load environment variables from .env."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
