@@ -67,14 +67,14 @@ function Home() {
           />
           <Product
             id="78538094"
-            title="Fire Rescue Team Garage Toy Set with Helicopter and Fire Car Set"
+            title="Fire Rescue Team Garage Toy Set"
             price={22.99}
             rating={4}
             image="https://m.media-amazon.com/images/I/81qb23rwo8L.__AC_SX300_SY300_QL70_FMwebp_.jpg"
           />
           <Product
             id="49789094"
-            title="plplaaoo Siberian Husky Stuffed Animal"
+            title="plplaaoo Siberian Husky Stuffed"
             price={12.99}
             rating={4}
             image="https://m.media-amazon.com/images/I/716-Ie65-sL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
@@ -84,28 +84,28 @@ function Home() {
         <div className="home-row">
           <Product
             id="4903850"
-            title="Home Training and Gym Fitness Kettlebells"
+            title="Home Training and Gym Fitness"
             price={139.99}
             rating={4}
             image="https://m.media-amazon.com/images/I/61GqFfJdFVL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
           />
           <Product
             id="4803864"
-            title="Signature Fitness Multifunctional Home Gym System Workout Station"
+            title="Home Gym System Workout Station"
             price={5299.99}
             rating={5}
             image="https://m.media-amazon.com/images/I/81Lu98MlisL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
           />
           <Product
             id="23445930"
-            title="LightingWill LED Strip Lights CRI90 SMD5050 16.4Ft(5M) 150LEDs"
+            title="LightingWill LED Strip Lights"
             price={32}
             rating={4}
             image="https://m.media-amazon.com/images/I/71+UrKp1kjL._AC_SX342_SY445_.jpg"
           />
           <Product
             id="3254354345"
-            title="Garmin Vivoactive 4S GPS Smartwatch with Music & Fitness Activity Tracker & Health Monitor Apps"
+            title="Garmin Vivoactive 4S GPS Smartwatch"
             price={32}
             rating={4}
             image="https://m.media-amazon.com/images/I/51f-Cfkk1hL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
@@ -115,14 +115,14 @@ function Home() {
         <div className="home-row">
           <Product
             id="4907560"
-            title="MAZAGE Women's Casual Long and Short Sleeve Pullover Shirt Crewneck Artistic Suit"
+            title="MAZAGE Women's Casual Long Suit"
             price={23.99}
             rating={4}
             image="https://m.media-amazon.com/images/I/51aJcY3ZB4L._AC_UX522_.jpg"
           />
           <Product
             id="4783864"
-            title="Flygo Womens Fleece 2 Piece Outfits Casual Half Zip Pullover Sweatshirt"
+            title="Flygo Womens Fleece Sweatshirt"
             price={49.98}
             rating={4}
             image="https://m.media-amazon.com/images/I/51a+N2MZPUL._AC_UY500_.jpg"
@@ -136,7 +136,7 @@ function Home() {
           />
           <Product
             id="3254354345"
-            title="FP Movement Women's Adella Slip Dress"
+            title="FP Movement Women's Dress"
             price={50}
             rating={5}
             image="https://m.media-amazon.com/images/I/918b5nUQIiL._AC_UY500_.jpg"
